@@ -1,34 +1,9 @@
 fileFormatVersion: 2
-guid: 19ad17da936320a4b85ddc3bd547e6cd
+guid: 947ee900c16a50d49bb844067ac63c34
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Atlas
-    second: {fileID: 2100000, guid: 9d3700c190b068949b776adb706fe34c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: HouseInner2Floor1
-    second: {fileID: 2100000, guid: a84cc8ac326e3be4b9e6a8c6fd6013ef, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: HouseWallsInner1Floor3
-    second: {fileID: 2100000, guid: d6db833b60d41d645a1bfaa6b928d8f6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Sand1
-    second: {fileID: 2100000, guid: 17e692c0da18fa948b602a1b24a1bbb5, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Sandstone1
-    second: {fileID: 2100000, guid: e3892086ccf43d648914656f12e2b97d, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
