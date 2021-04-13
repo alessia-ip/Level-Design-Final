@@ -3,7 +3,17 @@ guid: 37468b7fd56b657448aa80675f289eae
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Table_TopMat
+    second: {fileID: 2100000, guid: da5599f016e6c664dac6f65d9ef83acf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Table_botMat
+    second: {fileID: 2100000, guid: cef29aa3923baf644a2cd49deb0ef21e, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -44,7 +54,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     fileIdsGeneration: 2
-    swapUVChannels: 0
+    swapUVChannels: 1
     generateSecondaryUV: 0
     useFileUnits: 1
     keepQuads: 0

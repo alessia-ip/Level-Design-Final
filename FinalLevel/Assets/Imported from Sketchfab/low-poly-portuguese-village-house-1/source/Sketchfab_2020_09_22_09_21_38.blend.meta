@@ -3,7 +3,27 @@ guid: dbf4b56f39190f041a7508c1b7802941
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cal
+    second: {fileID: 2100000, guid: 9c9506fe6f9bf5a4fa44d27c69b15291, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Madeira
+    second: {fileID: 2100000, guid: dd65941f77f0a9e4fb857c9e31f27aa8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pedra
+    second: {fileID: 2100000, guid: 79d459d3b1c840e44be8ecb0de3311fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Telha
+    second: {fileID: 2100000, guid: 46b9009de8487f04a8b42d50f3d63509, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -22,7 +42,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
+    importConstraints: 1
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
