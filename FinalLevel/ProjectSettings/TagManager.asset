@@ -9,6 +9,7 @@ TagManager:
   - Detect
   - GameManager
   - Water
+  - Portal
   layers:
   - Default
   - TransparentFX
