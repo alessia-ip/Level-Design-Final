@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: a7c01b191e9274699940d61b50483c35,
+  m_LightingDataAsset: {fileID: 112000002, guid: 982cd1e8436d7504ab83d159252d2b7b,
     type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -1109,7 +1109,7 @@ WindZone:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1163668847}
   m_Enabled: 1
-  m_Mode: 1
+  m_Mode: 0
   m_Radius: 20
   m_WindMain: 1
   m_WindTurbulence: 1
