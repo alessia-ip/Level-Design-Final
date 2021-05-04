@@ -96,7 +96,7 @@ Material:
     - _Fade: 1
     - _FogHeight: 10
     - _FogYStartPos: 0
-    - _GlossMapScale: 1
+    - _GlossMapScale: 0.402
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _GradSettings_B: 0
