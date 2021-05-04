@@ -6149,7 +6149,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &407477467
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22873,12 +22873,12 @@ GameObject:
   - component: {fileID: 1217819803}
   - component: {fileID: 1217819802}
   m_Layer: 0
-  m_Name: Topaz
+  m_Name: Cyan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &1217819802
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32481,7 +32481,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &1373589185
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37420,7 +37420,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &1597697740
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37505,7 +37505,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1677238915
 Light:
   m_ObjectHideFlags: 0
@@ -42632,7 +42632,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &1748104831
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -57536,7 +57536,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &1973162486
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -72184,7 +72184,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &2143533614
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -87816,7 +87816,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &929871131164260326
 Transform:
   m_ObjectHideFlags: 0
@@ -91136,7 +91136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &4694984776764020160
 GameObject:
   m_ObjectHideFlags: 0
