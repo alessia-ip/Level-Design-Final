@@ -33,6 +33,11 @@ public class BoxDetect : MonoBehaviour
             breakable = true;
             breakKey.SetActive(true);
         }
+        else
+        {
+            breakable = false;
+            breakKey.SetActive(true);
+        }
             
     }
 
@@ -42,5 +47,10 @@ public class BoxDetect : MonoBehaviour
             //Destroy(box);
             breakable = false;
             breakKey.SetActive(false);
-        }    }
+        }
+        else
+        {
+            breakKey.SetActive(false);
+        }    
+    }
 }
