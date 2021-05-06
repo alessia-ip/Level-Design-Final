@@ -53,7 +53,7 @@ public class HookMoveableObjects : MonoBehaviour
                 if (hit.collider != null && hit.collider.gameObject.tag == "HookableObjects")
                 {
                     hook.transform.parent = null;
-                    hook.GetComponent<MeshRenderer>().enabled = true;
+                    //hook.GetComponent<MeshRenderer>().enabled = true;
                     hook.transform.position = hit.point;
                     hit.collider.transform.SetParent(hook.transform);
                     //hit.collider.enabled = false;
@@ -65,7 +65,7 @@ public class HookMoveableObjects : MonoBehaviour
                     hook.transform.parent = null;
 
                     player.GetComponent<CharacterController>().enabled = false;
-                    hook.GetComponent<MeshRenderer>().enabled = true;
+                    //hook.GetComponent<MeshRenderer>().enabled = true;
                     hook.transform.position = hit.collider.gameObject.transform.position;
                     hit.collider.gameObject.GetComponent<FishingSpot>().isFishing = true;
 
@@ -95,7 +95,7 @@ public class HookMoveableObjects : MonoBehaviour
         {
             hook.transform.GetChild(0).GetComponent<Collider>().enabled = true;
             hook.transform.DetachChildren();
-            hook.GetComponent<MeshRenderer>().enabled = false;
+            //hook.GetComponent<MeshRenderer>().enabled = false;
         }
         
     }

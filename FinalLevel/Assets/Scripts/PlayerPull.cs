@@ -45,13 +45,13 @@ public class PlayerPull : MonoBehaviour
             if (Physics.Raycast(ray, out hit))
             {
 
-                Debug.Log(hit.collider.gameObject.name);
+                Debug.Log("RAYCAST: " + hit.collider.gameObject.name);
 
                 if (hit.collider != null && hit.collider.gameObject.tag == "StableObjects")
                 {
                     hitObj = hit.collider.gameObject.tag;
                     hook.transform.parent = null;
-                    hook.GetComponent<MeshRenderer>().enabled = true;
+                    //hook.GetComponent<MeshRenderer>().enabled = true;
                     hook.transform.position = hit.point;
                     
                 }
@@ -67,7 +67,7 @@ public class PlayerPull : MonoBehaviour
         if (GenericHookScript.originalPosition == hook.transform.localPosition && hook.transform.childCount == 1)
         {
             hook.transform.DetachChildren();
-            hook.GetComponent<MeshRenderer>().enabled = false;
+            //hook.GetComponent<MeshRenderer>().enabled = false;
         }
 
     }
@@ -108,7 +108,7 @@ public class PlayerPull : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             hook.transform.DetachChildren();
-            hook.GetComponent<MeshRenderer>().enabled = false;
+            //hook.GetComponent<MeshRenderer>().enabled = false;
             hook.transform.parent = player.transform;
             hook.transform.localPosition = GenericHookScript.originalPosition;
             hitObj = null;

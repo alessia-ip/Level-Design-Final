@@ -12,6 +12,7 @@ public class collectable : MonoBehaviour
     public GameObject grappleHook;
     public GameObject grappleHookGun;
     public GameObject fishingHook;
+    public GameObject model;
     
     private void Start()
     {
@@ -33,6 +34,7 @@ public class collectable : MonoBehaviour
                 grappleHook.SetActive(true);
                 grappleHookGun.SetActive(true);
                 fishingHook.SetActive(true);
+                model.SetActive(true);
             }
             this.gameObject.SetActive(false);
         }
