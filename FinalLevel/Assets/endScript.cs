@@ -8,13 +8,14 @@ public class endScript : MonoBehaviour
     public GameManager manager;
     public GameObject endPos;
     
+    
 
     private void Update()
     {
         if (manager.GetComponent<LightControl>().end == true)
         {
             Vector3 pos = transform.position;
-            Vector3 whoopie = Vector3.MoveTowards(pos,endPos.transform.position, 1);
+            Vector3 whoopie = Vector3.MoveTowards(pos,Vector3.zero, 1);
             Quaternion rotate = transform.rotation;
             Quaternion idontwanttolive = Quaternion.RotateTowards(rotate, endPos.transform.rotation,3);
             transform.position = whoopie;
