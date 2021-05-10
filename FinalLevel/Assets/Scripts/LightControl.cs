@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class LightControl : MonoBehaviour
 {
+    public GameObject player;
+    public GameObject endCanvas;
+    public GameObject grapple;
+    
     public GameObject cyanEnd;
     public GameObject redEnd;
     public GameObject orangeEnd;
@@ -50,6 +54,11 @@ public class LightControl : MonoBehaviour
             whiteEndLight.SetActive(true);
             pinkEndLight.SetActive(true);
             lightpinkEndLight.SetActive(true);
+            player.GetComponent<FirstPersonDrifter>().enabled = false;
+            player.GetComponent<MouseLook>().enabled = false;
+            endCanvas.SetActive(false);
+            grapple.SetActive(false);
+            Camera.main.GetComponent<MouseLook>().enabled = false;
         }
     }
 }
