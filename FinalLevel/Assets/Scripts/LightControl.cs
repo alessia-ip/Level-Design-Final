@@ -62,8 +62,8 @@ public class LightControl : MonoBehaviour
             grapple.SetActive(false);
             Camera.main.GetComponent<MouseLook>().enabled = false;
             end = true;
-            Camera.main.transform.SetParent(null,false);
-            Camera.main.transform.SetParent(endcube.transform, false);
+            Camera.main.transform.SetParent(null,true);
+            Camera.main.transform.SetParent(endcube.transform, true);
         }
     }
 }

@@ -14,17 +14,19 @@ public class endScript : MonoBehaviour
     {
         if (manager.GetComponent<LightControl>().end == true)
         {
-            Vector3 pos = transform.position;
-            Vector3 whoopie = Vector3.MoveTowards(pos,Vector3.zero, .05f);
-            Quaternion rotate = transform.rotation;
-            Quaternion idontwanttolive = Quaternion.RotateTowards(rotate, endPos.transform.rotation,3);
-            transform.position = whoopie;
-            transform.rotation = idontwanttolive;
-            transform.SetParent(null);
+            Debug.Log("move me");
+            Vector3 pos = transform.localPosition;
+            Vector3 whoopie = Vector3.MoveTowards(pos,Vector3.zero, 1f);
+            Quaternion rotate = transform.localRotation;
+            Quaternion idontwanttolive = Quaternion.RotateTowards(rotate, endPos.transform.rotation,10);
+            transform.localPosition = whoopie;
+            transform.localRotation = idontwanttolive;
+           
         }
 
         if (transform.position == endPos.transform.position && transform.rotation == endPos.transform.rotation)
         {
+            transform.SetParent(null);
             GetComponent<Animator>().enabled = true;
         }
     }
