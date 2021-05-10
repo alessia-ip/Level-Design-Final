@@ -8,6 +8,7 @@ public class LightControl : MonoBehaviour
     public GameObject player;
     public GameObject endCanvas;
     public GameObject grapple;
+    public bool end = false;
     
     public GameObject cyanEnd;
     public GameObject redEnd;
@@ -59,6 +60,7 @@ public class LightControl : MonoBehaviour
             endCanvas.SetActive(false);
             grapple.SetActive(false);
             Camera.main.GetComponent<MouseLook>().enabled = false;
+            end = true;
         }
     }
 }
