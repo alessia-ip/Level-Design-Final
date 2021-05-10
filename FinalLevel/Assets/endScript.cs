@@ -28,6 +28,7 @@ public class endScript : MonoBehaviour
         {
             transform.SetParent(null);
             GetComponent<Animator>().enabled = true;
+            
         }
     }
 }
