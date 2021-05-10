@@ -38,6 +38,7 @@ public class BoxDetect : MonoBehaviour
             breakable = false;
             breakKey.SetActive(true);
         }
+      
             
     }
 
@@ -52,5 +53,7 @@ public class BoxDetect : MonoBehaviour
         {
             breakKey.SetActive(false);
         }    
+       
     }
+
 }

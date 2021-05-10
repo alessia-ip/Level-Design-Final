@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public int collectedCollectables = 0;
 
     public Text collectableCounter;
+    public bool heldrock = false;
 
     public AudioClip collectableSFX;
     private AudioSource audSource;
@@ -19,6 +20,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        heldrock = false;
         if (instance == null)
         {
             DontDestroyOnLoad(this.gameObject);

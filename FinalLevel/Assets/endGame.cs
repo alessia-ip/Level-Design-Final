@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class endGame : MonoBehaviour
 {
+    public GameManager manager;
     public GameObject original;
     public GameObject end;
     private bool onTheDial;
@@ -41,6 +42,7 @@ public class endGame : MonoBehaviour
         {
             Debug.Log("BAM");
             end.SetActive(true);
+            manager.heldrock = false;
         }
     }
 }

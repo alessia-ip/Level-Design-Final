@@ -28,6 +28,7 @@ public class collectable : MonoBehaviour
             {
                 manager.collectedCollectables++;
                 manager.collectSFX();
+                manager.heldrock = true;
             }
             else
             {
