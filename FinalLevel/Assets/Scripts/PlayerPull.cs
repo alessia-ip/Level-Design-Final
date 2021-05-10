@@ -89,7 +89,7 @@ public class PlayerPull : MonoBehaviour
             player.GetComponent<CharacterController>().enabled = false;
             player.transform.position = Vector3.MoveTowards(
                 player.transform.position,
-                 hook.transform.position + new Vector3(0f,0f,-1.5f), 
+                 hook.transform.position + new Vector3(0f,-1.5f,-1.5f), 
                 Time.deltaTime * speed);
             //if (Input.GetKeyDown(KeyCode.Space))
             /*if (Input.GetKeyDown(KeyCode.E))
