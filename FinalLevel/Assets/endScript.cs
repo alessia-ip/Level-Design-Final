@@ -15,11 +15,12 @@ public class endScript : MonoBehaviour
         if (manager.GetComponent<LightControl>().end == true)
         {
             Vector3 pos = transform.position;
-            Vector3 whoopie = Vector3.MoveTowards(pos,Vector3.zero, 1);
+            Vector3 whoopie = Vector3.MoveTowards(pos,Vector3.zero, .05f);
             Quaternion rotate = transform.rotation;
             Quaternion idontwanttolive = Quaternion.RotateTowards(rotate, endPos.transform.rotation,3);
             transform.position = whoopie;
             transform.rotation = idontwanttolive;
+            transform.SetParent(null);
         }
 
         if (transform.position == endPos.transform.position && transform.rotation == endPos.transform.rotation)
