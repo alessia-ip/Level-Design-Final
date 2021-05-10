@@ -18,7 +18,7 @@ public class endScript : MonoBehaviour
             Vector3 pos = transform.localPosition;
             Vector3 whoopie = Vector3.MoveTowards(pos,Vector3.zero, 1f);
             Quaternion rotate = transform.localRotation;
-            Quaternion idontwanttolive = Quaternion.RotateTowards(rotate, endPos.transform.rotation,10);
+            Quaternion idontwanttolive = Quaternion.RotateTowards(rotate, Quaternion.identity, 10);
             transform.localPosition = whoopie;
             transform.localRotation = idontwanttolive;
            
