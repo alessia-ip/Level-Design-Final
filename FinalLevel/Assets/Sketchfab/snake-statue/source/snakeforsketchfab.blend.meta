@@ -3,7 +3,17 @@ guid: c434c8190dd5d8a4aba3707f5efb4a36
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: snake
+    second: {fileID: 2100000, guid: 00bba89513dbb604a996c07fb39683b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stones
+    second: {fileID: 2100000, guid: d8e8f904f98900545a1eaac20384a6de, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
