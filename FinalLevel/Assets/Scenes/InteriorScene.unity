@@ -1541,7 +1541,7 @@ MonoBehaviour:
   maximumX: 360
   minimumY: -85
   maximumY: 85
-  framesOfSmoothing: 10
+  framesOfSmoothing: 5
 --- !u!114 &1745706315
 MonoBehaviour:
   m_ObjectHideFlags: 0
