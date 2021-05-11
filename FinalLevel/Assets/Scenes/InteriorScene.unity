@@ -200,7 +200,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 19d6dce141ee4c144b41560be0d85443,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19d6dce141ee4c144b41560be0d85443,
         type: 3}
@@ -466,6 +466,75 @@ Transform:
   m_Father: {fileID: 1745706319}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &174521291
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -98.20947
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.1260533
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 94.011665
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_Name
+      value: SMS Medieval Silver Locket
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d5ad7ced04ff39f48a0a6781293e293e, type: 3}
 --- !u!1001 &270895795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -476,7 +545,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 19d6dce141ee4c144b41560be0d85443,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19d6dce141ee4c144b41560be0d85443,
         type: 3}
@@ -1187,7 +1256,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1346292757
 GameObject:
@@ -1578,7 +1647,7 @@ Transform:
   - {fileID: 2128277919}
   - {fileID: 1346292758}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1864714092
 GameObject:
@@ -1673,6 +1742,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864714092}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &2121698467
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -87.32219
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.6311035
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 68.289375
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d5ad7ced04ff39f48a0a6781293e293e,
+        type: 3}
+      propertyPath: m_Name
+      value: SMS Medieval Silver Locket (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d5ad7ced04ff39f48a0a6781293e293e, type: 3}
 --- !u!1 &2128277918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1798,7 +1936,7 @@ PrefabInstance:
     - target: {fileID: 38172176763414345, guid: 0f463ff4cca17b946a84a381860d3338,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 38172176763414345, guid: 0f463ff4cca17b946a84a381860d3338,
         type: 3}
